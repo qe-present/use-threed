@@ -1,0 +1,9 @@
+[package]
+name = "use_thread"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+three-d = {version = "0.18.2",features = ["egui-gui"]}
+rand = "0.9.1"
+rand_distr = "0.5.1"
