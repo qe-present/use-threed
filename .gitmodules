@@ -1,0 +1,3 @@
+[submodule "gitsync"]
+	path = gitsync
+	url = https://github.com/neurusuv/gitsync.git

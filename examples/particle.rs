@@ -4,7 +4,7 @@ use rand_distr::{Normal, Distribution};
 
 fn main() {
     let window = Window::new(WindowSettings {
-        title: "粒子系统模拟".to_string(),
+        title: "模拟布朗运行".to_string(),
         max_size: Some((800, 600)),
         ..Default::default()
     })
@@ -70,9 +70,9 @@ fn main() {
         for (particle, position) in particles.iter_mut().zip(positions.iter_mut()) {
             // 更新位置
             *position += vec3(
-                normal.sample(&mut rng) * 0.01,
-                normal.sample(&mut rng) * 0.01,
-                normal.sample(&mut rng) * 0.01,
+                normal.sample(&mut rng) * 0.1,
+                normal.sample(&mut rng) * 0.1,
+                normal.sample(&mut rng) * 0.1,
             );
             // 应用新的变换
             particle.set_transformation(Mat4::from_translation(*position) * Mat4::from_scale(0.05));
