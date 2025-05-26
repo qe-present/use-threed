@@ -9,8 +9,10 @@ cargo run --example base --release
 cargo run --example particle --release
 ```
 ## 结果如下
-![](./asset/PixPin_2025-05-27_01-06-34.png)
+![](./asset/PixPin_2025-05-27_01-16-11.png)
 # 运行马尔可夫链
 ```shell
 cargo run --example mdp --release
 ```
+## 结果如下
+![](./asset/PixPin_2025-05-27_01-06-34.png)
