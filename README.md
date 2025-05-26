@@ -3,7 +3,8 @@
 ```shell
 cargo run --example base --release
 ```
-
+## 结果如下
+![](asset/PixPin_2025-05-27_01-18-18.png)
 # 模拟布朗运动
 ```shell
 cargo run --example particle --release
